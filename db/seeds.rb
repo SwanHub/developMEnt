@@ -29,7 +29,7 @@ Aspiration.create(user_id: cory[:id],
                   milestone_content_4: "Create page that interact with user.",
                   milestone_title_5: "Learn new language",
                   milestone_content_5: "Some good options: python, go, haskell")
-swol = Aspiration.create(user_id: blitzen[:id],
+Aspiration.create(user_id: blitzen[:id],
                   aspiration: "Get into better shape",
                   title: "Get swol",
                   time_frame: "10 weeks",
@@ -45,7 +45,7 @@ swol = Aspiration.create(user_id: blitzen[:id],
                   milestone_title_5: "Pecs",
                   milestone_content_5: "Gorilla pounding and terry crews moves.")
 
-eat_healthier = Aspiration.create(user_id: cory[:id],
+Aspiration.create(user_id: cory[:id],
                   aspiration: "Eat healthier ",
                   title: "No more junk food",
                   time_frame: "2 weeks",
@@ -55,9 +55,9 @@ eat_healthier = Aspiration.create(user_id: cory[:id],
                   milestone_title_2: "Buy vegetables",
                   milestone_content_2: "Got to farmers market and get some veggies",
                   milestone_title_3: "Don't buy more junk food",
-                  milestone_content_3: "Don't even go down the candy aisle",
+                  milestone_content_3: "Don't even go down the candy aisle")
 
-pro_skier = Aspiration.create(user_id: cory[:id],
+Aspiration.create(user_id: cory[:id],
                   aspiration: "Become a professinal skier",
                   title: "Practice skiing",
                   time_frame: "16 weeks",
@@ -69,9 +69,9 @@ pro_skier = Aspiration.create(user_id: cory[:id],
                   milestone_title_3: "Get some air",
                   milestone_content_3: "Go to terrain park and practice hitting jumps",
                   milestone_title_4: "Get on chairlift",
-                  milestone_content_4: "Don't fall while trying to get onto chairlift",
+                  milestone_content_4: "Don't fall while trying to get onto chairlift")
 
-project_management = Aspiration.create(user_id: mandy[:id],
+Aspiration.create(user_id: mandy[:id],
                   aspiration: "Improve project management",
                   title: "Git organized",
                   time_frame: "4 weeks",
@@ -87,7 +87,7 @@ project_management = Aspiration.create(user_id: mandy[:id],
                   milestone_title_5: "Share with others",
                   milestone_content_5: "Enlighten your co-workers")
 
-travel_more = Aspiration.create(user_id: mandy[:id],
+Aspiration.create(user_id: mandy[:id],
                   aspiration: "Travel more",
                   title: "Travel to new places",
                   time_frame: "35 weeks",
@@ -131,9 +131,7 @@ travel_more = Aspiration.create(user_id: mandy[:id],
                     milestone_title_3: "No Fun",
                     milestone_content_3: "1 beer only",
                     milestone_title_4: "No Dates",
-                    milestone_content_4: "Delete Tinder / Bumble / Grindr / Hinge, et all",
-                    milestone_title_5: "",
-                    milestone_content_5: "")
+                    milestone_content_4: "Delete Tinder / Bumble / Grindr / Hinge, et all")
 
   Aspiration.create(user_id: joseph[:id],
                     aspiration: "Improve sleep cycle",
