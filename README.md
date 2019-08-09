@@ -1,24 +1,26 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rails new name --api
 
-Things you may want to cover:
+uncomment 8-16 in cors.rb
+Set origins to '*'
+uncomment rack/cors in Gemfile
+bundle install
 
-* Ruby version
 
-* System dependencies
+rails g model model_name (singular)
+fill out the migration columns.
 
-* Configuration
+rails g controller api/version/pluralname
+create the index:: **RENDER JSON: @PLURALNAME**
 
-* Database creation
+routes... create the namespace nested thing...
+ namespace :api do
+    namespace :v1 do
+      resources :users, only: [:index]
+    end
+  end
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+namespace
